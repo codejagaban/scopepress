@@ -17,12 +17,9 @@ app.use(fileUpload())
 app.use(bodyParser.urlencoded({ extended: true }))
 
 
-app.use(express.static("../public_html/build"));
 const path = require("path");
 
-app.get("*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "public_html", "build", "index.html"));
-});
+
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY_SCOPEPRESS);
 
@@ -34,7 +31,7 @@ app.use((req,res,next) => {
 
 
 
-
+// delete the file from the server
         const deleteFile = name => {
           name ?  fs.unlinkSync(`${__dirname}/uploads/${name}`) : null
 
@@ -42,7 +39,7 @@ app.use((req,res,next) => {
 
 
 
-
+//  uploads a file to the server
 
 app.post('/api/upload', (req,res) => {
     let uploadedFile = req.files.file;
@@ -65,11 +62,13 @@ res.status(200).json({ msg : 'File Uploaded successfully'})
 })
 
 
+// deletes an uploadedFile
 app.post('/api/upload/delete', (req, res) => {
   const {file} = req.body
   deleteFile(file)
 })
 
+// place an order for a service
 app.post('/api/order',(req, res)  => {
 
     // Set mail variables
@@ -80,6 +79,7 @@ app.post('/api/order',(req, res)  => {
 console.log(req.body)
 
 
+// converts files to base64 before sending them
 
         const convertToBase64 = (filename) => {
           let contentFile = '';
@@ -116,6 +116,7 @@ if(files) {
 
   })
 }
+// sends a mail
 sgMail.send(msg)
 .then( response => {
 
