@@ -1,0 +1,2 @@
+#send a mail
+POST   http://localhost:5000/backend/order
