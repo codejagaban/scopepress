@@ -2,11 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from './navComponents/Navbar';
 import Footer from './Footer';
+import { Helmet } from 'react-helmet';
 
 
 
 const Pricing = () => (
 <div>
+	<Helmet>
+		<title>Pricing | Scope Press</title>
+	</Helmet>
 <Navbar/>
 
 <div class="m-portlet bg-grey mb-0">
@@ -18,7 +22,7 @@ const Pricing = () => (
 		<div class="row m-row--no-padding">
 			<div class="m-pricing-table-3__item col-lg-4">
 
-				<div class="m-pricing-table-3__wrapper bg-grey">
+				<div class="m-pricing-table-3__wrapper bg-white">
 					<h3 class="m-pricing-table-3__title">
 					Bronze Editing
 					</h3>
@@ -67,9 +71,9 @@ const Pricing = () => (
 
 
 			<div class="m-pricing-table-3__item col-lg-4">
-				<div class="m-pricing-table-3__wrapper bg-grey">
+				<div class="m-pricing-table-3__wrapper bg-white">
 					<h3 class="m-pricing-table-3__title">
-						Gold Editng
+						Gold Editing
 					</h3>
 						<span class="m-pricing-table-3__label">
 							$ 40 / per page
@@ -108,7 +112,7 @@ const Pricing = () => (
 		<div class="row m-row--no-padding justify-content-center">
 
 			<div class="m-pricing-table-3__item col-lg-4">
-				<div class="m-pricing-table-3__wrapper bg-grey">
+				<div class="m-pricing-table-3__wrapper bg-white">
 					<h3 class="m-pricing-table-3__title">
 					Translation
 					</h3>
@@ -139,8 +143,8 @@ Your journals will be translated into proper American or British English
 
 
 
-			<div class="m-pricing-table-3__item col-lg-4 mx-a">
-				<div class="m-pricing-table-3__wrapper bg-grey">
+			<div class="m-pricing-table-3__item bg-white col-lg-4 mx-a">
+				<div class="m-pricing-table-3__wrapper bg-white">
 					<h3 class="m-pricing-table-3__title">
 						Journal Recommendation
 					</h3>
@@ -181,7 +185,7 @@ you can avoid unnecessary rejection.
 	<div class="m-pricing-table-3__items">
 		<div class="row m-row--no-padding">
 			<div class="m-pricing-table-3__item col-lg-4">
-				<div class="m-pricing-table-3__wrapper bg-grey">
+				<div class="m-pricing-table-3__wrapper bg-white">
 					<h3 class="m-pricing-table-3__title">
 						Tables Formatting
 					</h3>
@@ -236,7 +240,7 @@ headings, image placement, and citations/references will be modified to meet the
 
 
 			<div class="m-pricing-table-3__item col-lg-4">
-				<div class="m-pricing-table-3__wrapper bg-grey">
+				<div class="m-pricing-table-3__wrapper bg-white">
 					<h3 class="m-pricing-table-3__title">
 						Figures Formatting
 					</h3>

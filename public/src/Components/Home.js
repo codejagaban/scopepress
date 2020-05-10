@@ -5,30 +5,50 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Footer from './Footer';
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
+import { Helmet } from 'react-helmet';
 
 
-const Home = () => (
-  <div>
+const Home = () => {
+	const content = [
+		{image: '/images/bg3.webp', title: 'WE HELP YOU ACHIEVE YOUR ACADEMIC', break: 'GOALS.', description: 'On time delivery', button: 'Get Started', url: '/quote'},
+		{image: '/images/bg2.webp', title: 'ACADEMIC PROOFREADING & EDITING', break: 'EXPERTS.', description: 'Improve your paper with language editing and proofreading from our subject experts.'},
+		{image: '/images/bg1.webp', title: 'BEGIN YOUR PUBLICATION JOURNEY WITH US',break: 'TODAY.', description: 'Every Paper deserve the Chance to Make the Best Possible Impact'}
+	]
+
+	return (
+
+	
+  <>
+  <Helmet>
+	  <title>Home | Scope Press</title>
+  </Helmet>
 
       <Navbar/>
+
+
+
   <div id="banner">
   <div className="overlay">
-       <div className="container">
-              <div className="row top-row">
-                  <div className="col-md-2">
-                  </div>
-                  <div className="col-md-8 mt-5">
-                         <h1 className="display-4 "> We help you achieve your academic goals.</h1>
-
-                         <Link to={'/quote'} className="btn mx-auto  btn-outline-brand   text-white   pl-4 pr-5">Get started</Link>
-                  </div>
-
-                  <div className="col-md-2">
-                  </div>
-              </div>
-
+       <div className="">
+	   <Slider autoplay={2000}>
+	{content.map((item, index) => (
+		<div
+			key={index}
+			style={{ background: ` linear-gradient(rgba(0, 0, 0, 0.3), rgba(70, 51, 51, 0.3)),url('${item.image}') no-repeat`, backgroundSize: 'cover', backgroundPosition: 'center', height: '80vh' }}
+		>
+			<div className="slider-text">
+				<h1>{item.title} <span className="text-danger">{item.break}</span></h1>
+				<p className="text-capitalize">{item.description}</p>
+				{ item.button && <Link to={item.url}  role="button" className="btn btn-brand text-white   mt-3  pl-5 pr-5">{item.button}</Link>}
+			</div>
+		</div>
+	))}
+</Slider>
 
        </div>
+
 
 
 </div>
@@ -176,38 +196,6 @@ const Home = () => (
 
 </div>
 
-<div className="bg-white  pt-5 pb-5">
-    <div className="container pt-5 pb-5">
-        <h2 className="text-center mb-3">Trusted by some respected names in publishing</h2>
-
-<div className="row mt-5">
-<div className="col-md-3 col-6 p-3">
-	<img src="/images/client/ox.png" className="img-fluid" width="160"/>
-</div>
-
-
-<div className="col-md-3 col-6 p-3">
-	<img src="/images/client/taylor.png" className="img-fluid" width="160"/>
-</div>
-
-<div className="col-md-3 col-6 p-3">
-	<img src="/images/client/cope.png" className="img-fluid" width="160"/>
-</div>
-
-
-<div className="col-md-3 col-6 p-3">
-	<img src="/images/client/ells.png" className="img-fluid" width="160"/>
-</div>
-
-
-
-</div>
-    </div>
-
-</div>
-
-
-
 <div className="bg-testimonial  pt-5 pb-5">
     <div className="container pt-5 pb-5">
         <h2 className="text-center mb-5">What authors say about us</h2>
@@ -222,23 +210,22 @@ const Home = () => (
 	margin={40}
 	loop
 	lazyContent
-	nav
 	autoplay
 	autoplayTimeout={8000}
 	responsive ={ {
         0:{
             items:1,
-            nav:true
+            
         },
         600:{
             items:2,
-            nav:false
+            
 		}
 	}
 
     }
 >
-    <div class="item">
+    <div className="item">
 	<div className="text-center">
 
 			<p><i className="la la-quote-left quote"></i> If you want real value for your money, with excellent services then scopepress is your choice.<i className="la la-quote-right quote"></i> </p>
@@ -313,7 +300,7 @@ const Home = () => (
 										<div className="m-accordion m-accordion--default m-accordion--solid m-accordion--section  m-accordion--toggle-arrow" id="m_accordion_7" role="tablist">
 											{/* <!--begin::Item--> */}
 											<div className="m-accordion__item">
-												<div className="m-accordion__item-head collapsed" role="tab" id="m_accordion_7_item_1_head" data-toggle="collapse" href="#m_accordion_7_item_1_body" aria-expanded="    false">
+												<div className="m-accordion__item-head collapsed" role="tab" id="m_accordion_7_item_1_head" data-toggle="collapse" href="#m_accordion_7_item_1_body" aria-expanded="false">
 
 													<span className="m-accordion__item-title">
 													Is your website safe?
@@ -333,7 +320,7 @@ const Home = () => (
 											{/* <!--end::Item-->  */}
                     {/* <!--begin::Item--> */}
 											<div className="m-accordion__item">
-												<div className="m-accordion__item-head collapsed" role="tab" id="m_accordion_7_item_2_head" data-toggle="collapse" href="#m_accordion_7_item_2_body" aria-expanded="    false">
+												<div className="m-accordion__item-head collapsed" role="tab" id="m_accordion_7_item_2_head" data-toggle="collapse" href="#m_accordion_7_item_2_body" aria-expanded="false">
 
 													<span className="m-accordion__item-title">
 													What does Manuscript Formatting include?
@@ -353,7 +340,7 @@ const Home = () => (
 											{/* <!--end::Item-->  */}
                     {/* <!--begin::Item--> */}
 											<div className="m-accordion__item">
-												<div className="m-accordion__item-head collapsed" role="tab" id="m_accordion_7_item_3_head" data-toggle="collapse" href="#m_accordion_7_item_3_body" aria-expanded="    false">
+												<div className="m-accordion__item-head collapsed" role="tab" id="m_accordion_7_item_3_head" data-toggle="collapse" href="#m_accordion_7_item_3_body" aria-expanded="false">
 
 													<span className="m-accordion__item-title">
 													What file types do you accept for figure formatting?
@@ -389,9 +376,9 @@ const Home = () => (
 
 
 
-</div>
+</>
+	)
 
-)
-
+}
 
 export default Home;

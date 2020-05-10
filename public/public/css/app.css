@@ -848,3 +848,10 @@ div.content {
   }
 }
 
+/* #SEO */
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot .owl-dot{
+  width: 48px;
+  height: 48px; 
+  padding:10px 20px !important;
+}
+

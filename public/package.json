@@ -1,5 +1,5 @@
 {
-  "name": "bookamechanic-client",
+  "name": "ScopePress-Website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +7,7 @@
     "jquery": "^3.4.0",
     "moment": "^2.24.0",
     "react": "^16.9.0",
+    "react-animated-slider": "^2.0.0",
     "react-dom": "^16.9.0",
     "react-dropzone-uploader": "^2.10.0",
     "react-loader-spinner": "^2.3.0",

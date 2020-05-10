@@ -2,6 +2,7 @@ import React,{ Component } from 'react';
 import axios from 'axios';
 import Navbar from './navComponents/Navbar';
 import Footer from './Footer';
+import { Helmet } from 'react-helmet';
 
 
 class Contact extends Component {
@@ -57,7 +58,10 @@ class Contact extends Component {
     render(){
         return(
 
-            <div>
+            <>
+            <Helmet>
+                <title>Contact Us | Scope Press</title>
+            </Helmet>
         <Navbar/>
 
         <div className="container">
@@ -111,7 +115,7 @@ class Contact extends Component {
                                        </div>
 
 
-                                       <button className="btn btn-brand " type="submit">
+                                       <button role="button" className="btn btn-brand " type="submit">
                                        {
 	this.state.isLoading && <div className="m-loader" style={{ width: '30px', display: 'inline-block' }} ></div>
 }
@@ -130,8 +134,7 @@ Submit</button>
 
         </div>
         <Footer/>
-    </div>
-
+</>
         )
     }
 }

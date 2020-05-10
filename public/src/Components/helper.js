@@ -1,7 +1,7 @@
-export function formatPrice(kobo) {
-    return (kobo / 100).toLocaleString("en-US", {
+export function formatPrice(usd) {
+    return (usd / 100).toLocaleString("en-US", {
       style: "currency",
-      currency: "NGN"
+      currency: "USD"
     });
   }
 

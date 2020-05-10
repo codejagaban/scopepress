@@ -91,8 +91,9 @@
  */
 
  html {
-  line-height: 1.15; /* 1 */
+
   -webkit-text-size-adjust: 100%; /* 2 */
+  font-size: 62.5%;
 }
 
 /* Sections
@@ -104,6 +105,8 @@
 
 body {
   margin: 0;
+  /* font-size: 1.8rem; */
+ 
 }
 
 /**
@@ -534,22 +537,21 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Varela Round", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: bold;
 }
-
+/* 
 h5,
 h6 {
-  font-family: "Varela Round", sans-serif;
-}
+  font-family: "Rubik", sans-serif;
+} */
 
 p {
-  font-family: 1.5rem !important;
-  line-height: 2rem !important;
+  line-height: 2.5rem !important;
 }
 
 html, body {
-  font-family: "Varela Round", sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #022B69 !important;
   font-weight: 400 !important;
 }
@@ -606,18 +608,40 @@ body.m-content--skin-light2 {
 
 #banner {
   padding-top: 8rem;
-  height: 95vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(70, 51, 51, 0.6)), url("/images/bg2.jpg");
+  /* height: 95vh; */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(70, 51, 51, 0.6)), url("/images/bg2.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   color: #fff;
 }
 
-#banner .overlay {
-  height: 50rem;
-  background-attachment: fixed;
+.slider {
+  height: 800px !important;
+}
+
+.slider-text {
+  text-align: center;
+  margin-top: 15%;
+}
+.slider-text  h1{
+  font-size: 5.5rem;
+}
+.slider-text p {
+  font-size: 2.8rem;
+}
+@media (max-width: 720px) {
+
+  .slider-text {
+    margin-top: 50%;
+  }
+.slider-text h1 {
+  font-size: 4rem;
+}
+.slider-text p {
+  font-size: 2rem;
+}
 }
 
 .top-row {
@@ -728,7 +752,7 @@ nav.navbar {
 
 li.price-summary-section {
   padding: 1em;
-  font-size: 14px;
+  font-size: 1.5rem;
 }
 
 .desc {
@@ -754,7 +778,7 @@ li.service-taked:not(:last-child) {
 .delivery-date {
   opacity: 0.6;
   margin-top: 0.5rem;
-  font-size: 0.95rem;
+  font-size: 1.4rem;
 }
 
 .cta-free {
@@ -852,7 +876,7 @@ ol.progtrckr li.progtrckr-done {
 }
 
 .dzu-inputLabel {
-  font-family: "Varela Round", sans-serif !important;
+  font-family: "Rubik", sans-serif !important;
   font-weight: 300 !important;
   padding: 15px;
 }
@@ -931,3 +955,14 @@ div.content {
   }
 }
 
+
+.navbar-expand-lg .navbar-nav .nav-link 
+ {
+   padding-left: 1.5rem;
+   font-size: 1.6rem;
+   padding-right: 1.5rem;
+ }
+
+.submit-text {
+  font-size: 1.8rem;
+}

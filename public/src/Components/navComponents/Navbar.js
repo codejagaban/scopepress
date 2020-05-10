@@ -11,7 +11,7 @@ const Navbar = () =>  {
 <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
 <div className="container">
   <NavLink className="navbar-brand d-flex justify-content-start" to={'/'} >
-    <img src={"/images/logo.png"} height="70"/>
+    <img src={"/images/logo.png"} alt="ScopePress Logo" height="70"/>
   </NavLink>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>

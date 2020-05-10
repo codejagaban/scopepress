@@ -5,7 +5,8 @@ import { formatPrice } from './helper';
 import Select from 'react-select';
 import axios from 'axios';
 import 'react-dropzone-uploader/dist/styles.css'
-import Dropzone from 'react-dropzone-uploader'
+import Dropzone from 'react-dropzone-uploader';
+import { Helmet } from 'react-helmet';
 
 const Submit = () => {
 
@@ -362,7 +363,7 @@ const handleSelectPositionChange = (e) => {
 }
 
 
-const translationPrice = isTranslating ? 21000 : 0;
+const translationPrice = isTranslating ? 32000 : 0;
 const manuscriptFormatingPrice = isManuscriptFormatting ?  12500 : 0;
 const journalRecommendationPrice = journalRecommendation ? 15000: 0;
 
@@ -430,7 +431,7 @@ const formData = {
 
 	  <p> Editing Type : <strong>${ isEditing ? editingType: 'None'}</strong> </p>
 	   <p>Number Of pages to edit : <strong> ${ numOfPageToEdit ? numOfPageToEdit : 'None' }</strong></p>
-	   <p>Language to translate from : <strong>${langToTranslate}</strong></p>}
+	   <p>Language to translate from : <strong>${langToTranslate}</strong></p>
 	   <p> ${isManuscriptFormatting ? 'Manuscript Formatting' : ''}</p>
 	   <p> ${isTabelsFormatting ? 'Tables Formatting' : ''}</p>
 	   <p>Number of tables to format <strong>${ numOfTables ? numOfTables : 'None' }</strong></p>
@@ -473,7 +474,8 @@ const formData = {
 
 	  .then( res => {
 	  	console.log(res)
-	  	setState({success : res.data.msg, isLoading: false})
+		  setState({...initialState, success : res.data.msg,});
+		  window.scrollTo(0, 0);
 
 	  })
 	  .catch(err => {
@@ -483,7 +485,10 @@ const formData = {
 
 }
 return (
-<Fragment>
+<>
+<Helmet>
+	<title>Submit Journals | Scope Press</title>
+</Helmet>
 <Navbar/>
 <section>
 <div id="banner" className="quotebanner">
@@ -491,7 +496,7 @@ return (
 						<div className="container">
 						<div className="row mt-5" >
 				<div className="col-md-12">
-					<h2 className="quote-statement"> Get a service that suites your needs</h2>
+					<h2 className="submit-text text-dark text-uppercase"> Get a service that suites your needs</h2>
 				</div>
 				</div>
 				</div>
@@ -504,7 +509,7 @@ return (
 				<div className="container">
 			<div className="row">
 				<div className="col-md-7 ">
-					<p>Select a service or send a mail with the neccessary files required for the services
+					<p className="submit-text">Select a service or send a mail with the neccessary files required for the services
 					 you want to <a href="mailto:submit@scopepress.org">submit@scopepress.org</a></p>
 						<form action="" onSubmit={onFromSubmit} className="mb-5" encType="multipart/form-data">
 
@@ -981,7 +986,7 @@ headings, image placement, and citations/references will be modified to meet the
 				</div>
 
 <div className="form-group mt-4">
-<button type="submit" className="btn btn-brand">
+<button role="button" type="submit" className="btn btn-brand">
 		                              {
 	isLoading && <div className="m-loader" style={{ width: '30px', display: 'inline-block' }} ></div>
 }	Submit
@@ -1080,7 +1085,7 @@ headings, image placement, and citations/references will be modified to meet the
 </section>
 <Footer/>
 
-</Fragment>
+</>
 )
 }
 

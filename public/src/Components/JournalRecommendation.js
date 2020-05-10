@@ -3,13 +3,16 @@ import {Link} from 'react-router-dom';
 import Navbar from './navComponents/Navbar';
 import Sidebar from './navComponents/Sidebar';
 import Footer from './Footer';
+import { Helmet } from 'react-helmet';
 
 
 // const cookie = document.cookie;
 // console.log(cookie)
 const JournalRecommendation = () => (
   <div>
-
+	  <Helmet>
+		  <title>Journal Recommendation As A Service | Scope Press</title>
+	  </Helmet>
       <Navbar/>
 
 <div className="bg-white  pt-5 pb-5">

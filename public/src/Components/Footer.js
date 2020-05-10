@@ -56,7 +56,7 @@ const Footer = () => (
                       </div>
 
                   </div>  <div className="copyright text-center mt-5">
-                          <li>&copy; {moment().year()} Scope Press Editing. All rights reserved.</li>
+                          <p>&copy; {moment().year()} Scope Press Editing. All rights reserved.</p>
 
                           </div>
 
