@@ -23,6 +23,10 @@ const Home = () => {
   <>
   <Helmet>
 	  <title>Home | Scope Press</title>
+	  <meta name="keywords" content="Journal Editing, translation , Journal translation , manuscript formatting, tables formatting, figures formatting, formatting, articles " />
+    <meta name="description" content="We are an online editing  service and provide  editing, translation , journal translation , manuscript formatting, tables formatting, figures formatting, formatting,  of scientific and academic journals and articles."/>
+    <meta name="author" content="scopepress.org"/>
+
   </Helmet>
 
       <Navbar/>
@@ -36,7 +40,7 @@ const Home = () => {
 	{content.map((item, index) => (
 		<div
 			key={index}
-			style={{ background: ` linear-gradient(rgba(0, 0, 0, 0.3), rgba(70, 51, 51, 0.3)),url('${item.image}') no-repeat`, backgroundSize: 'cover', backgroundPosition: 'center', height: '80vh' }}
+			style={{ background: ` linear-gradient(rgba(0, 0, 0, 0.3), rgba(70, 51, 51, 0.3)),url('${item.image}') no-repeat`, backgroundSize: 'cover', backgroundPosition: 'center', height: '75vh' }}
 		>
 			<div className="slider-text">
 				<h1>{item.title} <span className="text-danger">{item.break}</span></h1>
@@ -75,7 +79,7 @@ const Home = () => {
 											</div>
 										</div>
 									</div>
-									<div className="m-portlet__body">
+									<div className="m-portlet__body h-20">
 									We have over 300+ native English-speaking editing professionals, we adhere to the highest standard of editorial excellence to edit your papers accurately and effectively.
 									</div>
 									<div className="m-portlet__foot m--hide">
@@ -99,7 +103,7 @@ const Home = () => {
 											</div>
 										</div>
 									</div>
-									<div className="m-portlet__body">
+									<div className="m-portlet__body h-20">
 									We handle language editing, plagiarism check and make sure that your paper is free of grammatical, spelling, and other common editorial errors
 									</div>
 									<div className="m-portlet__foot m--hide">
@@ -123,7 +127,7 @@ const Home = () => {
 											</div>
 										</div>
 									</div>
-									<div className="m-portlet__body">
+									<div className="m-portlet__body h-20">
 									With decades of experience and over 10,000 journals  served, we have earned our reputation as a leading provider of English editing services all over the world.
 									</div>
 									<div className="m-portlet__foot m--hide">

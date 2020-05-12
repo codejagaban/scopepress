@@ -339,13 +339,13 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem; }
+  font-size: 4.5rem; }
 
 h2, .h2 {
-  font-size: 2rem; }
+  font-size: 3rem; }
 
 h3, .h3 {
-  font-size: 1.75rem; }
+  font-size: 2rem; }
 
 h4, .h4 {
   font-size: 1.5rem; }
@@ -501,7 +501,7 @@ pre {
       max-width: 960px; } }
   @media (min-width: 1200px) {
     .container {
-      max-width: 1140px; } 
+      max-width: 1300px; } 
     .slider-text {
       margin-top: 20%;
     }}
@@ -6150,115 +6150,6 @@ a.text-dark:hover, a.text-dark:focus {
 .m-tooltip.tooltip.bs-tooltip-auto[x-placement^="right"] .arrow::before {
   right: -1px; }
 
-.m-tooltip .tooltip-inner {
-  color: #6f727d;
-  background: white;
-  -webkit-box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.1) ;
-  -moz-box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.1) ;
-  box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.1) ; }
-
-.m-tooltip.bs-tooltip-top .arrow::before, .m-tooltip.bs-tooltip-auto[x-placement^="top"] .arrow::before {
-  border-top-color: white; }
-
-.m-tooltip.bs-tooltip-right .arrow::before, .m-tooltip.bs-tooltip-auto[x-placement^="right"] .arrow::before {
-  border-right-color: white; }
-
-.m-tooltip.bs-tooltip-bottom .arrow::before, .m-tooltip.bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
-  border-bottom-color: white; }
-
-.m-tooltip.bs-tooltip-left .arrow::before, .m-tooltip.bs-tooltip-auto[x-placement^="left"] .arrow::before {
-  border-left-color: white; }
-
-.m-tooltip.m-tooltip--skin-dark .tooltip-inner {
-  color: #9093ac;
-  background: #282a38;
-  -webkit-box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.5) ;
-  -moz-box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.5) ;
-  box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.5) ; }
-
-.m-tooltip.m-tooltip--skin-dark.bs-tooltip-top .arrow::before, .m-tooltip.m-tooltip--skin-dark.bs-tooltip-auto[x-placement^="top"] .arrow::before {
-  border-top-color: #282a38; }
-
-.m-tooltip.m-tooltip--skin-dark.bs-tooltip-right .arrow::before, .m-tooltip.m-tooltip--skin-dark.bs-tooltip-auto[x-placement^="right"] .arrow::before {
-  border-right-color: #282a38; }
-
-.m-tooltip.m-tooltip--skin-dark.bs-tooltip-bottom .arrow::before, .m-tooltip.m-tooltip--skin-dark.bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
-  border-bottom-color: #282a38; }
-
-.m-tooltip.m-tooltip--skin-dark.bs-tooltip-left .arrow::before, .m-tooltip.m-tooltip--skin-dark.bs-tooltip-auto[x-placement^="left"] .arrow::before {
-  border-left-color: #282a38; }
-
-.m-popover.popover {
-  padding: 0;
-  border-radius: 4px; }
-  .m-popover.popover .arrow:before {
-    border: 0; }
-  .m-popover.popover .popover-header {
-    padding: 12px 15px;
-    font-weight: 400;
-    border: 0;
-    -webkit-border-top-left-radius: 4px;
-    -moz-border-top-left-radius: 4px;
-    -ms-border-top-left-radius: 4px;
-    -o-border-top-left-radius: 4px;
-    border-top-left-radius: 4px;
-    -webkit-border-top-right-radius: 4px;
-    -moz-border-top-right-radius: 4px;
-    -ms-border-top-right-radius: 4px;
-    -o-border-top-right-radius: 4px;
-    border-top-right-radius: 4px; }
-  .m-popover.popover .popover-body {
-    padding: 12px 15px;
-    font-size: 1rem;
-    font-weight: 300; }
-  .m-popover.popover.show {
-    opacity: 1 ;
-    filter: alpha(opacity=100) ; }
-
-.m-popover.popover {
-  border: 0;
-  color: #6f727d;
-  background: white;
-     box-shadow: 0 2.6rem 3rem -1.4rem rgba(0, 102, 245, 0.08);
-}
-  .m-popover.popover:before {
-    display: none; }
-  .m-popover.popover.bs-popover-top .arrow::after, .m-popover.popover.bs-popover-auto[x-placement^="top"] .arrow::after {
-    border-top-color: white; }
-  .m-popover.popover.bs-popover-right .arrow::after, .m-popover.popover.bs-popover-auto[x-placement^="right"] .arrow::after {
-    border-right-color: white; }
-  .m-popover.popover.bs-popover-bottom .arrow::after, .m-popover.popover.bs-popover-auto[x-placement^="bottom"] .arrow::after {
-    border-bottom-color: white; }
-  .m-popover.popover.bs-popover-left .arrow::after, .m-popover.popover.bs-popover-auto[x-placement^="left"] .arrow::after {
-    border-left-color: white; }
-  .m-popover.popover .popover-header {
-    color: #022B69;
-    background: #ffffff; }
-  .m-popover.popover .popover-body {
-    color: #6f727d; }
-
-.m-popover.m-popover--skin-dark.popover {
-  border: 0;
-  color: #9093ac;
-  background: #242532;
-  -webkit-box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.3) ;
-  -moz-box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.3) ;
-  box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.3) ; }
-  .m-popover.m-popover--skin-dark.popover:before {
-    display: none; }
-  .m-popover.m-popover--skin-dark.popover.bs-popover-top .arrow::after, .m-popover.m-popover--skin-dark.popover.bs-popover-auto[x-placement^="top"] .arrow::after {
-    border-top-color: #282a38; }
-  .m-popover.m-popover--skin-dark.popover.bs-popover-right .arrow::after, .m-popover.m-popover--skin-dark.popover.bs-popover-auto[x-placement^="right"] .arrow::after {
-    border-right-color: #282a38; }
-  .m-popover.m-popover--skin-dark.popover.bs-popover-bottom .arrow::after, .m-popover.m-popover--skin-dark.popover.bs-popover-auto[x-placement^="bottom"] .arrow::after {
-    border-bottom-color: #282a38; }
-  .m-popover.m-popover--skin-dark.popover.bs-popover-left .arrow::after, .m-popover.m-popover--skin-dark.popover.bs-popover-auto[x-placement^="left"] .arrow::after {
-    border-left-color: #282a38; }
-  .m-popover.m-popover--skin-dark.popover .popover-header {
-    color: #ffffff;
-    background: #2c2e3e; }
-  .m-popover.m-popover--skin-dark.popover .popover-body {
-    color: #9093ac; }
 
 .dropdown-menu {
   border: 0;
@@ -13203,6 +13094,7 @@ body.m-portlet--fullscreen {
     .m-portlet .m-portlet__head .m-portlet__head-tools .m-portlet__nav .m-portlet__nav-item .m-portlet__nav-link.m-portlet__nav-link--icon:hover i {
       color: #0066f5; }
   .m-portlet .m-portlet__body {
+  
     color: #022B69; }
   .m-portlet .m-portlet__foot:not(.m-portlet__no-border) {
     border-top: 1px solid #ebedf2; }
@@ -14435,7 +14327,15 @@ body.m-content--skin-light2 {
 i.flaticon-more {
   cursor: pointer;
 }
+h2 {
 
+}
 h5 {
   font-size: 1.8rem;
+}
+.h-20 {
+  height: 20rem;
+}
+.ab {
+  margin-top: 10rem;
 }

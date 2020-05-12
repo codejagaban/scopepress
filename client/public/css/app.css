@@ -756,6 +756,7 @@ hr.footer-line {
   border-radius: 1.2rem;
   padding: 2rem 3rem;
   margin: 3rem 1rem 4rem;
+  height: 22rem;
   display: flex;
   flex-direction: column;
   overflow: hidden;

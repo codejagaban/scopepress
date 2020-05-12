@@ -467,10 +467,9 @@ const formData = {
 
  axios.post(
  	'/api/order'
- 	// 'https://scopepress.heroku.com/backend/order'
+ 
  	,formData
 			)
-
 
 	  .then( res => {
 	  	console.log(res)
@@ -480,7 +479,8 @@ const formData = {
 	  })
 	  .catch(err => {
 	  	console.log({ err })
-	  	setState({errors : 'Something went wrong please try again later', isLoading: false})
+		  setState({errors : 'Something went wrong please try again later', isLoading: false});
+		  window.scrollTo(0, 0);
 	  })
 
 }
@@ -488,6 +488,10 @@ return (
 <>
 <Helmet>
 	<title>Submit Journals | Scope Press</title>
+	<meta name="keywords" content=" Submission of Journal, Uploading of Journal, Journal Information, choosing service,Journal Editing, translation , Journal translation , manuscript formatting, tables formatting, figures formatting, formatting, articles " />
+    <meta name="description" content="Submit your Journals for editing  service and provide  editing, translation , journal translation , manuscript formatting, tables formatting, figures formatting, formatting,  of scientific and academic journals and articles.  Reach out to us and we will respond as soon as we can."/>
+    <meta name="author" content="scopepress.org"/>
+
 </Helmet>
 <Navbar/>
 <section>
@@ -1006,7 +1010,7 @@ headings, image placement, and citations/references will be modified to meet the
             <p className="sub-header text-uppercase">Selected Service (s)</p>
             <ul className="service-selected p-0">
             {isEditing && <li className="service-taked">{editingType } ( { numOfPageToEdit ? numOfPageToEdit : 0 } page (s) )
-            <span className=" float-right pricing">{numOfPageToEdit ? formatPrice(editingPrice) : '$0.00'}</span>
+            <span className=" float-right pricing">{numOfPageToEdit ? formatPrice(editingPrice) : formatPrice(.000)}</span>
             <p className="delivery-date">
             <i className="mdi mdi-calendar-check-outline"></i> will be delivered in { deliveryDate }
             </p>
