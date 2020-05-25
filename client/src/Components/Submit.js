@@ -757,7 +757,7 @@ and efficiently communicate your results.
 										</span>
 										<span className="m-option__body">
 										Publication-ready figures wil be created from your files that conform to your chosen journal’s specifications.
-This includes changes to file type, resolution,color space e.t.c
+This includes changes to file type, resolution, color, space etc.
 										</span>
 									</span>
 								</label>

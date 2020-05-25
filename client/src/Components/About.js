@@ -69,7 +69,7 @@ copy-editing and proofreading on a case-by-case basis.
 
 <li>Choose from simple editing, reviewing structure, journal formatting and more</li>
 
-<li>Guaranteed on-time delivery—from to 1-7 working business days</li>
+<li>Guaranteed on-time delivery from to 1-7 working business days</li>
 </ul>
 
 {/* <h3 className="mt-5">Plagiarism Check</h3>
@@ -179,7 +179,7 @@ feel confident that the English language in your paper has been reviewed and imp
   <div className="card p-0">
   <img src="/images/7.webp" className="card-img-top" alt="Editor In Chief"/>
           <div className="card-body">
-          <h4 className="mt-4 mb-4">Hanilton</h4>
+          <h4 className="mt-4 mb-4">Hamilton</h4>
             <p>Team Manager</p>
 
           </div>

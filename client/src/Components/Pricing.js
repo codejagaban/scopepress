@@ -27,7 +27,7 @@ const Pricing = () => (
 					Bronze Editing
 					</h3>
 					<span class="m-pricing-table-3__label">
-							$	20 / per page
+							$20 / per page
 						</span>
 
 					<br/>
@@ -76,7 +76,7 @@ const Pricing = () => (
 						Gold Editing
 					</h3>
 						<span class="m-pricing-table-3__label">
-							$ 40 / per page
+							$40 / per page
 						</span>
 
 
@@ -255,8 +255,8 @@ headings, image placement, and citations/references will be modified to meet the
 
 					<br/>
 					<span class="m-pricing-table-3__description">
-						Publication-ready figures wil be created from your files that conform to your chosen journal’s specifications.
-This includes changes to file type, resolution,color space etc
+						Publication-ready figures will be created from your files that conform to your chosen journal’s specifications.
+This includes changes to file type, resolution, color space etc.
 					</span>
 					<div class="m-pricing-table-3__btn">
 						<Link to="/quote"  class="btn   btn-outline-brand m-btn--wide m-btn--uppercase m-btn--bolder m-btn--lg">

@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Navbar from './navComponents/Navbar';
-import Sidebar from './navComponents/Sidebar';
 import Footer from './Footer';
 import { Helmet } from 'react-helmet';
 
@@ -35,7 +34,7 @@ Getting your research paper published may takes months, and sometimes, even year
 <div className="col-md-6">
 <div class="service-card">
             <h4 className="mt-4 mb-4">Editing</h4>
-            <p>Our specialists of editors will edit your papers and ensure that your papers are free from grammatical errors, plagiarism and common sentence structure errors using English</p>
+            <p>Our Professional editors will edit your papers and ensure that your papers are free from grammatical errors, plagiarism and common sentence structure errors using English</p>
           </div>
 
     </div>
@@ -49,7 +48,7 @@ Getting your research paper published may takes months, and sometimes, even year
     <div className="col-md-6">
 								<div class="service-card">
             <h4 className="mt-4 mb-4">Tables Formatting</h4>
-            <p>We format tables for free. Our team of  illustrators handle the layout, font, spacing, borders, and shading of your tables to accurately and efficiently communicate your results.</p>
+            <p>We format tables for free. Our team of  illustrators handles the layout, font, spacing, borders, and shading of your tables to accurately and efficiently communicate your results.</p>
           </div>
                                 </div>
 
@@ -60,7 +59,7 @@ Getting your research paper published may takes months, and sometimes, even year
                                 <div className="col-md-6">
 								<div class="service-card">
             <h4 className="mt-4 mb-4">Transalation</h4>
-            <p>Overcome the language barrier, by having your journals translated and editted from Poland, Portuguese, Taiwan, Turkish, Finnish, Norwegian, Czech
+            <p>Overcome the language barrier, by having your journals translated and edited from Poland, Portuguese, Taiwan, Turkish, Finnish, Norwegian, Czech
  China,
  French,
  Finland,
@@ -81,8 +80,7 @@ Getting your research paper published may takes months, and sometimes, even year
                                 <div className="col-md-6">
 								<div class="service-card">
             <h4 className="mt-4 mb-4">Figures Formatting</h4>
-            <p>We format figures for free and  generates publication-ready figures from your files that conform to your chosen journal’s specifications. This includes changes to line weights, file type, color space,resolution, font, scale,  and layouts.
-  .</p>
+            <p>We format figures for free and  generates publication-ready figures from your files that conform to your chosen journal’s specifications. This includes changes to line heights, file type, color space, resolution, font, scale,  and layouts.</p>
           </div>
                                 </div>
 
@@ -93,7 +91,7 @@ Getting your research paper published may takes months, and sometimes, even year
                                 <div className="col-md-6">
 								<div class="service-card">
             <h4 className="mt-4 mb-4">Manuscript Formatting</h4>
-            <p>We will  help review the language in your manuscript,  or academic book to ensure that your ideas are communicated clearly and then accurately, we will modify your page layout, citations/references to meet the guidelines of your target journal. We will also check the accuracy of your references.</p>
+            <p>We will  help review the language in your manuscript,  or academic book to ensure that your ideas are communicated clearly and accurately, we will modify your page layout, citations/references to meet the guidelines of your target journal. We will also check the accuracy of your references.</p>
           </div>
                                 </div>
 

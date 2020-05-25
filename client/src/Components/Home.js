@@ -13,8 +13,7 @@ import { Helmet } from 'react-helmet';
 const Home = () => {
 	const content = [
 		{image: '/images/bg3.webp', title: 'WE HELP YOU ACHIEVE YOUR ACADEMIC', break: 'GOALS.', description: 'On time delivery', button: 'Get Started', url: '/quote'},
-		{image: '/images/bg2.webp', title: 'ACADEMIC PROOFREADING & EDITING', break: 'EXPERTS.', description: 'Improve your paper with language editing and proofreading from our subject experts.'},
-		{image: '/images/bg1.webp', title: 'BEGIN YOUR PUBLICATION JOURNEY WITH US',break: 'TODAY.', description: 'Every Paper deserve the Chance to Make the Best Possible Impact'}
+		{image: '/images/bg2.webp', title: 'ACADEMIC PROOFREADING & EDITING', break: 'EXPERTS.', description: 'Improve your paper with language editing and proofreading from our subject experts.'}
 	]
 
 	return (
@@ -158,7 +157,7 @@ const Home = () => {
 <div className="col-md-4 ">
 <div className="service-card">
             <h4 className="mt-4 mb-4">Editing <br/></h4>
-            <p>Our specialists of editors will edit your papers and ensure that your papers are free from grammatical errors, plagiarism and common sentence structure errors using  English (British and American)</p>
+            <p>Our Professional editors will edit your papers and ensure that your papers are free from grammatical errors, plagiarism and common sentence structure errors using  English (British and American)</p>
           </div>
 
     </div>
@@ -166,7 +165,7 @@ const Home = () => {
     <div className="col-md-4 ">
 <div className="service-card">
             <h4 className="mt-4 mb-4">Translation <br/></h4>
-            <p>Overcome the language barrier, by having your journals translated and editted from Poland,
+            <p>Overcome the language barrier, by having your journals translated and edited from Poland,
  Portuguese,
  Taiwan,
  Turkish,
