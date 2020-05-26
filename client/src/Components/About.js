@@ -65,11 +65,11 @@ copy-editing and proofreading on a case-by-case basis.
 
 <li>The world largest experts of native English editors with PhDs from top universities such as Harvard, Oxford and cambridge.</li>
 
-<li>Our system perfectly matches your document to experts in your feild</li>
+<li>Our system perfectly matches your document to experts in your field</li>
 
 <li>Choose from simple editing, reviewing structure, journal formatting and more</li>
 
-<li>Guaranteed on-time delivery from to 1-7 working business days</li>
+<li>Guaranteed on-time delivery from 1-7 working business days</li>
 </ul>
 
 {/* <h3 className="mt-5">Plagiarism Check</h3>
