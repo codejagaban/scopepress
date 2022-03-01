@@ -990,7 +990,7 @@ headings, image placement, and citations/references will be modified to meet the
 				</div>
 
 <div className="form-group mt-4">
-<button role="button" type="submit" className="btn btn-brand">
+<button type="submit" className="btn btn-brand">
 		                              {
 	isLoading && <div className="m-loader" style={{ width: '30px', display: 'inline-block' }} ></div>
 }	Submit

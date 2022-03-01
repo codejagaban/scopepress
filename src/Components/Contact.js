@@ -118,7 +118,7 @@ class Contact extends Component {
                                        </div>
 
 
-                                       <button role="button" className="btn btn-brand " type="submit">
+                                       <button className="btn btn-brand " type="submit">
                                        {
 	this.state.isLoading && <div className="m-loader" style={{ width: '30px', display: 'inline-block' }} ></div>
 }

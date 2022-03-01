@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import Navbar from './navComponents/Navbar';
 import Footer from './Footer';
 
@@ -16,7 +15,7 @@ const TermsAndConditions = () => (
 <h2 className="pt-5">Terms Of Service</h2>
 <div className="row">
 	<div className="col-md-7">
-		<h3 className="mt-5"></h3>
+		<div className="mt-5" />
 
         <h5>Description of service</h5>
 				<p>

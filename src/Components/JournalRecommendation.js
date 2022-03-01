@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import Navbar from './navComponents/Navbar';
 import Footer from './Footer';
 import { Helmet } from 'react-helmet';
@@ -16,7 +15,7 @@ const JournalRecommendation = () => (
 
 <div className="bg-white  pt-5 pb-5">
 <div className="container pt-5 ">
-<h2 className="pt-5"></h2>
+<div className="pt-5" />
 <div className="row">
 	<div className="col-md-9 mx-auto">
 		<h3 className="mt-5">Journal Recommendation</h3>

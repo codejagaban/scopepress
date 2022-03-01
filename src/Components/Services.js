@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import Navbar from './navComponents/Navbar';
 import Footer from './Footer';
 import { Helmet } from 'react-helmet';
