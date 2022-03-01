@@ -28,8 +28,8 @@ const Faq = () => (
 
 							</div>
 							<div className="row">
-							<div className="col-md-9 mx-auto">
-<div className="m-portlet m-portlet--full-height">
+					<div className="col-md-9 mx-auto">
+						<div className="m-portlet m-portlet--full-height">
 
 									<div className="m-portlet__body">
 										{/* <!--begin::Section--> */}
