@@ -60,7 +60,7 @@ class Contact extends Component {
 
             <>
             <Helmet>
-                <title>Contact Us | Scope Press</title>
+                <title>Contact Us | AWESOME ACADEMIC PROOFREADING</title>
                 <meta name="keywords" content=" Contact us, Help, Journal Information, choosing service,Journal Editing, translation , Journal translation , manuscript formatting, tables formatting, figures formatting, formatting, articles " />
     <meta name="description" content="Have a suggestion, or need help on editing  service and provide  editing, translation , journal translation , manuscript formatting, tables formatting, figures formatting, formatting,  of scientific and academic journals and articles.  Reach out to us and we will respond as soon as we can."/>
     <meta name="author" content="scopepress.org"/>

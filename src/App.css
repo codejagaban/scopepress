@@ -887,7 +887,7 @@ ol.progtrckr li.progtrckr-done {
 .bg-testimonial {
   padding-top: 8rem;
   height: 450px;
-  background: url("/images/client/bg-connected.png");
+  /* background: url("/images/client/bg-connected.png"); */
   background-size: cover;
   background-position: center;
 }
@@ -974,3 +974,7 @@ div.content {
 .submit-text {
   font-size: 1.8rem;
 }
+.previousButton svg polygon, .nextButton svg polygon {
+  fill: #FFFFFF;
+}
+

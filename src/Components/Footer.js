@@ -16,7 +16,7 @@ const Footer = () => (
                               <p>113 Seaford  Road,  CUNNOQUHIE, KY15 8WG,  United Kingdom.
                                </p>
                                <p>985 Plainfield Avenue, Syracuse, New York, NY,  13221, USA.</p>
-                               <p>Need help? Send us a mail at support@scopepress.org</p>
+                               <p>Need help? Send us a mail at support@awesomeproofreading.org</p>
 
                           </div>
                           <div className="col-md-3 col-6 mt-5">
@@ -56,7 +56,7 @@ const Footer = () => (
                       </div>
 
                   </div>  <div className="copyright text-center mt-5">
-                          <p>&copy; {moment().year()} Scope Press Editing. All rights reserved.</p>
+                          <p>&copy; {moment().year()} Awesome Academic Proofreading. All rights reserved.</p>
 
                           </div>
 

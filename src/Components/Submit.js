@@ -487,7 +487,7 @@ const formData = {
 return (
 <>
 <Helmet>
-	<title>Submit Journals | Scope Press</title>
+	<title>Submit Journals | AWESOME ACADEMIC PROOFREADING</title>
 	<meta name="keywords" content=" Submission of Journal, Uploading of Journal, Journal Information, choosing service,Journal Editing, translation , Journal translation , manuscript formatting, tables formatting, figures formatting, formatting, articles " />
     <meta name="description" content="Submit your Journals for editing  service and provide  editing, translation , journal translation , manuscript formatting, tables formatting, figures formatting, formatting,  of scientific and academic journals and articles.  Reach out to us and we will respond as soon as we can."/>
     <meta name="author" content="scopepress.org"/>

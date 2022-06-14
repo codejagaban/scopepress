@@ -9,7 +9,7 @@ import { Helmet } from 'react-helmet';
 const JournalRecommendation = () => (
   <div>
 	  <Helmet>
-		  <title>Journal Recommendation As A Service | Scope Press</title>
+		  <title>Journal Recommendation As A Service | AWESOME ACADEMIC PROOFREADING</title>
 	  </Helmet>
       <Navbar/>
 

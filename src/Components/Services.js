@@ -9,7 +9,7 @@ import { Helmet } from 'react-helmet';
 const Services = () => (
   <div> 
 <Helmet>
-  <title>Services | Scope Press</title>
+  <title>Services | AWESOME ACADEMIC PROOFREADING</title>
 </Helmet>
       <Navbar/>
 

@@ -9,7 +9,7 @@ import { Helmet } from 'react-helmet';
 const Pricing = () => (
 <div>
 	<Helmet>
-		<title>Pricing | Scope Press</title>
+		<title>Pricing | AWESOME ACADEMIC PROOFREADING</title>
 	</Helmet>
 <Navbar/>
 
@@ -159,7 +159,7 @@ Your journals will be translated into proper American or British English
 					</span>
 					<br/>
 					<span class="m-pricing-table-3__description">
-					Scope Press team will shortlists 3 best-suited journals to you.
+					AWESOME ACADEMIC PROOFREADING team will shortlists 3 best-suited journals to you.
 By submitting to this selected journals that match your study,
 you can avoid unnecessary rejection.
 
