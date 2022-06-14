@@ -1,13 +1,13 @@
-# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
-PassengerAppRoot "/home/scopowlj/Scopepress-server"
-PassengerBaseURI "/"
-PassengerNodejs "/home/scopowlj/nodevenv/Scopepress-server/10/bin/node"
-PassengerAppType node
-PassengerStartupFile lib/server.js
-# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
-DirectoryIndex disabled
-RewriteEngine On
-RewriteRule ^$ http://127.0.0.1:5000/ [P,L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ http://127.0.0.1:5000/$1 [P,L]
+# # DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+# PassengerAppRoot "/home/scopowlj/Scopepress-server"
+# PassengerBaseURI "/"
+# PassengerNodejs "/home/scopowlj/nodevenv/Scopepress-server/10/bin/node"
+# PassengerAppType node
+# PassengerStartupFile lib/server.js
+# # DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DirectoryIndex disabled
+# RewriteEngine On
+# RewriteRule ^$ http://127.0.0.1:5000/ [P,L]
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^(.*)$ http://127.0.0.1:5000/$1 [P,L]

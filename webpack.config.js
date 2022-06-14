@@ -1,6 +1,6 @@
 // ...
 plugins: [
-    // other plugins,zz
+    // other plugins,
     new webpack.ProvidePlugin({
         $: 'jquery',
         jQuery: 'jquery',

@@ -1,6 +1,6 @@
 
 
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
 /* Loader css */
 
 .pace {
@@ -537,13 +537,13 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Rubik", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: bold;
 }
 /* 
 h5,
 h6 {
-  font-family: "Rubik", sans-serif;
+  font-family: "DM Sans", sans-serif;
 } */
 
 p {
@@ -551,9 +551,8 @@ p {
 }
 
 html, body {
-  font-family: "Rubik", sans-serif;
+  font-family: "DM Sans", sans-serif;
   color: #022B69 !important;
-  font-weight: 400 !important;
 }
 
 .full-height {
@@ -574,7 +573,10 @@ body.m-content--skin-light2 {
 }
 
 .nav-item {
-  color: #e3e3e3;
+  font-size: 14px;
+  color: rgb(34, 58, 120);
+  font-weight: 500;
+  /* padding: 15px 40px; */
 }
 
 @media screen and (max-width: 700px) {
@@ -622,14 +624,14 @@ body.m-content--skin-light2 {
 }
 
 .slider-text {
-  text-align: center;
-  margin-top: 15%;
+  text-align: left;
+  margin-top: 20%;
 }
 .slider-text  h1{
   font-size: 5.5rem;
 }
 .slider-text p {
-  font-size: 2.8rem;
+  font-size: 2rem;
 }
 @media (max-width: 720px) {
 
@@ -877,7 +879,7 @@ ol.progtrckr li.progtrckr-done {
 }
 
 .dzu-inputLabel {
-  font-family: "Rubik", sans-serif !important;
+  font-family: "DM Sans", sans-serif !important;
   font-weight: 300 !important;
   padding: 15px;
 }
@@ -957,11 +959,16 @@ div.content {
 }
 
 
-.navbar-expand-lg .navbar-nav .nav-link 
+.navbar-expand-lg .navbar-nav .nav-link
  {
-   padding-left: 1.5rem;
+   padding-left: 2rem;
+   font-size: 1.5rem;
+   font-weight: 500;
+   padding-right: 2rem;
+ }
+
+ .text-small {
    font-size: 1.6rem;
-   padding-right: 1.5rem;
  }
 
 .submit-text {
